@@ -4,6 +4,7 @@
 
 $(document).ready(() => {
 
+
 	$('ul, li').mouseover((event) => {
 		$(event.target).css({fontWeight: 'bold'});
 	})			
@@ -16,7 +17,6 @@ $(document).ready(() => {
 		$(event.target).children().toggle('slow');
 		event.stopPropagation();
 	})
-
 });
 
 
